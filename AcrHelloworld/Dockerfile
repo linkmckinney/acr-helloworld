@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/dotnet/core/aspnet:2.2 AS base
 # Update <acrName> with the name of your registry
 # Example: uniqueregistryname.azurecr.io
-ENV DOCKER_REGISTRY acr0222808.azurecr.io
+ENV DOCKER_REGISTRY acr0222808-hwa5hphsfkd9hgdu.azurecr.io
 WORKDIR /app
 EXPOSE 443
 
